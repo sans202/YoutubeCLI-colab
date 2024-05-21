@@ -16,7 +16,7 @@ def get_menu_item_str(title: str):
 
 def str_list_to_lines(str_list: list[str], max_line_width: int, center_text=False):
     lines = list()
-    max_line_width = 1
+    max_line_width = 20
     current_line = ''
     for word in str_list:
         if len(current_line) + len(word) > max_line_width:
